@@ -60,8 +60,7 @@ figurinhas = [
     {"id": 27, "nome": "Gi Space Coding", "categoria": "BRASIL", "imagem_url": "/figurinhas/27/imagem"},
     {"id": 28, "nome": "Vinicius Neves", "categoria": "BRASIL", "imagem_url": "/figurinhas/28/imagem"},
     {"id": 29, "nome": "Rafaela Ballerini", "categoria": "BRASIL", "imagem_url": "/figurinhas/29/imagem"},
-    # Figurinha 30 ainda não disponível na pasta figurinhas/
-    # {"id": 30, "nome": "Você", "categoria": "BRASIL", "imagem_url": "/figurinhas/30/imagem"}
+    {"id": 30, "nome": "Kauã Victor", "categoria": "BRASIL", "imagem_url": "/figurinhas/30/imagem"}
 ]
 
 # 4. Endpoint GET "/figurinhas" para listar todas as figurinhas ativas
