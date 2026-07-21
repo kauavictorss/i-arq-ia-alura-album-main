@@ -1,6 +1,6 @@
 # 📘 Alura Álbum - Copa do Mundo Tech
 
-Um álbum de figurinhas virtual e interativo desenvolvido durante a **Imersão Arquitetura Web & IA** da Alura. O projeto celebra as personalidades mais influentes da história e do presente da tecnologia, divididas em categorias temáticas.
+Um álbum de figurinhas virtual e interativo desenvolvido durante a **Imersão Arquitetura Web com IA** da Alura. O projeto celebra as personalidades mais influentes da história e do presente da tecnologia, divididas em categorias temáticas.
 
 ---
 
@@ -20,12 +20,21 @@ Um álbum de figurinhas virtual e interativo desenvolvido durante a **Imersão A
 
 ---
 
+## 🧠 Inteligência Artificial Aplicada no Projeto
+
+A Inteligência Artificial desempenhou um papel central na concepção e execução do projeto:
+
+- 🎨 **Geração de Imagens & Assets Visuais**: As figurinhas e elementos gráficos dos ícones da tecnologia foram concebidos e refinados utilizando ferramentas de **IA Generativa de Imagens**, proporcionando um visual coeso em estilo *dark futurista*.
+- 🤖 **Pair Programming & Assistência de Código**: IAs generativas de código (LLMs) foram empregadas no suporte ao desenvolvimento da lógica de síntese sonora com **Web Audio API**, estruturação de endpoints no **FastAPI** e estilização CSS responsiva.
+- 💡 **Curadoria Temática**: O álbum reserva sua primeira seção para homenagear os grandes nomes da história e evolução da IA (Alan Turing, Sam Altman, Geoffrey Hinton, Yann LeCun, John McCarthy).
+
+---
+
 ## ⚡ Recursos & Diferenciais Técnicos
 
-O projeto conta com tecnologias e APIs específicas que elevam a experiência de uso:
-
 - 📖 **St.PageFlip (Efeito 3D)**: Biblioteca especializada para simular o efeito realista de folheamento de páginas em um álbum físico, com sombras dinâmicas, dobra de papel e física de interatividade ao arrastar com o mouse ou toque.
-- 🔊 **Web Audio API (Síntese Sonora)**: Áudio procedural gerado dinamicamente via código (filtros *bandpass*, *lowpass* e varredura de frequências). Simula a fricção física de folhas de papel sem a necessidade de baixar ou carregar arquivos estáticos de áudio (`.mp3` ou `.wav`).
+- 🔊 **Web Audio API (Síntese Sonora Procedural)**: Áudio procedural gerado dinamicamente via código (filtros *bandpass*, *lowpass* e varredura de frequências). Simula a fricção física de folhas de papel sem a necessidade de carregar arquivos de áudio externos (`.mp3` ou `.wav`).
+- ⚡ **Backend Assíncrono com FastAPI**: API de alta performance responsável pelo gerenciamento de dados das figurinhas e entrega otimizada de imagens.
 
 ---
 
@@ -35,8 +44,18 @@ O **Alura Álbum** tem como objetivo proporcionar uma experiência imersiva e in
 
 - **Efeitos Visuais e Animações 3D**: Simulação realista de folheamento de páginas com sombras e texturas.
 - **Áudio Sintetizado**: Reprodução do som característico de folhear páginas em papel, gerado em tempo real via Web Audio API.
-- **Integração com Backend Assíncrono**: Carregamento dinâmico de figurinhas e dados através de requisições `fetch` para uma API FastAPI.
+- **Integração Backend-Frontend**: Carregamento dinâmico de figurinhas e dados através de requisições `fetch` para uma API FastAPI.
 - **Design Temático e Responsivo**: Visual futurista em Dark Mode com identidade inspirada em tecnologia e inteligência artificial.
+
+---
+
+## 📋 Pré-requisitos
+
+Antes de iniciar, você precisará ter instalado em sua máquina:
+
+- [Python 3.10+](https://www.python.org/)
+- Um navegador web moderno (Google Chrome, Firefox, Edge, Safari)
+- (Opcional) Extensão **Live Server** para o VS Code
 
 ---
 
@@ -127,3 +146,11 @@ O **Alura Álbum** tem como objetivo proporcionar uma experiência imersiva e in
    - Diretamente no seu navegador de preferência;
    - Ou utilizando a extensão **Live Server** no VS Code para servir a aplicação web.
 2. Interaja com o álbum: folheie as páginas, ligue/desligue o som e veja as figurinhas sendo carregadas dinamicamente da API!
+
+---
+
+## 📜 Licença & Agradecimentos
+
+Projeto desenvolvido com fins educativos durante a **Imersão Arquitetura Web & IA** promovida pela [Alura](https://www.alura.com.br/).
+
+Distribuído sob a licença MIT.
