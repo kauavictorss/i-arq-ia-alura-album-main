@@ -149,8 +149,21 @@ Antes de iniciar, você precisará ter instalado em sua máquina:
 
 ---
 
-## 📜 Licença & Agradecimentos
+## ✍️ Autor
 
-Projeto desenvolvido com fins educativos durante a **Imersão Arquitetura Web & IA** promovida pela [Alura](https://www.alura.com.br/).
+<div align="center">
+  <img src="https://github.com/kauavictorss.png" width="150px" style="border-radius: 50%;" alt="Kauã Victor"/>
+  <br><br>
+  <strong>Kauã Victor Silva dos Santos</strong>
+  <br><br>
 
-Distribuído sob a licença MIT.
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauavictorss)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaua-victor-santos/)
+</div>
+
+---
+## 🎓 Certificação Alura
+
+Projeto desenvolvido como parte da **Imersão Arquitetura Web com IA** da **[Alura](https://www.alura.com.br)**, com foco em arquiteturas web modernas e maior produtividade com ferramentas de Inteligência Artificial.
+
+[![Certificado Alura](https://img.shields.io/badge/Certificado-ALura-2A04F7?style=for-the-badge&logo=douban)](https://cursos.alura.com.br/immersion/certificate/6e39daa7-e85a-4d13-bb9c-d5ba786c42cb)
