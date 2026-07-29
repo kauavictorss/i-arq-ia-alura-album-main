@@ -162,7 +162,8 @@ Antes de iniciar, você precisará ter instalado em sua máquina:
 </div>
 
 ---
-## 🎓 Certificação Alura
+
+## 🎓 Certificado Alura
 
 Projeto desenvolvido como parte da **Imersão Arquitetura Web com IA** da **[Alura](https://www.alura.com.br)**, com foco em arquiteturas web modernas e maior produtividade com ferramentas de Inteligência Artificial.
 
